@@ -5,53 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Testing Website - SFM Calculations</title>
   <style>
-    :root{
-      --bg:#f3f6fb;
-      --text:#0f172a;
-      --muted:#475569;
-      --card:#ffffff;
-      --ring:#94a3b8;
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
     }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;
-      background:var(--bg);
-      color:var(--text);
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      padding:16px;
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
     }
-    .card{
-      background:var(--card);
-      border:1px solid rgba(15,23,42,.08);
-      border-radius:18px;
-      box-shadow:0 10px 30px rgba(2,6,23,.08);
-      padding:32px 28px;
-      text-align:center;
-      max-width:720px;
-      width:min(92vw,720px);
+    p {
+      text-align: center;
+      font-size: 1.25rem;
+      color: #475569;
     }
-    h1{
-      margin:0 0 8px;
-      font-size:clamp(28px,5vw,48px);
-      letter-spacing:.3px;
-    }
-    p{
-      margin:0;
-      font-size:clamp(16px,2.5vw,22px);
-      color:var(--muted);
-    }
-    /* Focus-visible for accessibility if links/buttons are added later */
-    :focus-visible{outline:3px solid var(--ring); outline-offset:4px}
   </style>
 </head>
 <body>
-  <main class="card" role="main" aria-label="Simple testing website banner">
-    <h1>THIS IS TESTING WEBSITE</h1>
-    <p>TO SHOW THE SFM CALCULATIONS</p>
-  </main>
+  <div>
+    <h1>This is testing website</h1>
+    <p>To show the SFM calculations</p>
+  </div>
 </body>
 </html>
